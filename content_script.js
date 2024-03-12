@@ -19,8 +19,8 @@ function handleGamepadInput() {
         5: () => triggerClick('button[data-tooltip="switchpokemon|1"]'), // R for Switch 2
         6: () => triggerClick('button[data-tooltip="switchpokemon|2"]'), // ZL for Switch 3
         7: () => triggerClick('button[data-tooltip="switchpokemon|3"]'), // ZR for Switch 4
-        12: () => triggerClick('button[data-tooltip="switchpokemon|4"]'), // D-Pad Up for Switch 5
-        13: () => triggerClick('button[data-tooltip="switchpokemon|5"]'), // D-Pad Down for Switch 6
+        8: () => triggerClick('button[data-tooltip="switchpokemon|4"]'), // - for Switch 5
+        9: () => triggerClick('button[data-tooltip="switchpokemon|5"]'), // + for Switch 6
     };
     
 
