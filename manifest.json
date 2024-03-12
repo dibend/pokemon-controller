@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3, 
+    "name": "Pokemon Showdown Controller Extension", 
+    "version": "1.0.0", 
+    "description": "Maps Nintendo Switch controller buttons to Pokemon Showdown actions",
+
+    "content_scripts": [
+        {
+            "matches": ["https://play.pokemonshowdown.com/*"], 
+            "js": ["content_script.js"],
+            "run_at": "document_end" 
+        }
+    ],
+
+    "action": { 
+        "default_popup": "popup.html" 
+    },
+
+    "permissions": [
+        "activeTab", 
+        "gamepad" 
+    ]
+}
