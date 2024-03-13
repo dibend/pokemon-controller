@@ -1,4 +1,4 @@
-# Nintendo Switch Controller Support for play.pokemonshowdown.com battles in wide-screen Chrome
+# Nintendo Switch Controller Support for [Pokemon Showdown](https://play.pokemonshowdown.com) battles in wide-screen Chrome
 
 ## Chrome must be in developer mode to install this Chrome extension.
 
