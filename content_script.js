@@ -11,8 +11,8 @@ function handleGamepadInput() {
 
     // Define your button mappings and associated actions here
     const buttonMappings = {
-        0: () => triggerClick('button[name="chooseMove"][value="2"]'), // A for Attack 1
-        1: () => triggerClick('button[name="chooseMove"][value="1"]'), // B for Attack 2
+        1: () => triggerClick('button[name="chooseMove"][value="1"]'), // A for Attack 1
+        0: () => triggerClick('button[name="chooseMove"][value="2"]'), // B for Attack 2
         3: () => triggerClick('button[name="chooseMove"][value="3"]'), // X for Attack 3
         2: () => triggerClick('button[name="chooseMove"][value="4"]'), // Y for Attack 4
         4: () => triggerClick('button[data-tooltip="switchpokemon|0"]'), // L for Switch 1
