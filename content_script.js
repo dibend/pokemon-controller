@@ -21,6 +21,7 @@ function handleGamepadInput() {
         7: () => triggerClick('button[data-tooltip="switchpokemon|3"]'), // ZR for Switch 4
         8: () => triggerClick('button[data-tooltip="switchpokemon|4"]'), // - for Switch 5
         9: () => triggerClick('button[data-tooltip="switchpokemon|5"]'), // + for Switch 6
+        10: () => triggerClick('.megaevo > input[type="checkbox"]'), // left stick click to check/uncheck mega evo
     };
     
 
