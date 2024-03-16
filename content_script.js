@@ -1,5 +1,8 @@
+let buttonPressStates = {};
+
 function triggerClick(selector) {
     const element = document.querySelector(selector);
+    console.log(element);
     if (element) {
         element.click();
     }
@@ -21,16 +24,20 @@ function handleGamepadInput() {
         7: () => triggerClick('button[data-tooltip="switchpokemon|3"]'), // ZR for Switch 4
         8: () => triggerClick('button[data-tooltip="switchpokemon|4"]'), // - for Switch 5
         9: () => triggerClick('button[data-tooltip="switchpokemon|5"]'), // + for Switch 6
-        10: () => triggerClick('.megaevo > input[type="checkbox"]'), // left stick click to check/uncheck mega evo
+        12: () => triggerClick('div.battle-controls > div > div.movecontrols > div.movemenu > label.megaevo'), // Home to check/uncheck mega evo
     };
     
-
     gamepad.buttons.forEach((button, index) => {
         if (button.pressed) {
-            const action = buttonMappings[index];
-            if (action) {
-                action();
+            if (!buttonPressStates[index]) { // Check if the button was not previously pressed
+                const action = buttonMappings[index];
+                if (action) {
+                    action(); // Execute the action
+                    buttonPressStates[index] = true; // Mark the button as pressed
+                }
             }
+        } else {
+            buttonPressStates[index] = false; // Reset the state when the button is released
         }
     });
 }
