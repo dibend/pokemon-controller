@@ -1,0 +1,11 @@
+# Node dependencies
+node_modules/
+
+# Build artifacts
+*.crx
+*.zip
+dist/
+build/
+
+# OS files
+.DS_Store
