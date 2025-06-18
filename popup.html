@@ -21,11 +21,24 @@
 
     <div class="section">
         <h2>Controller Status</h2>
-        <p id="statusText">Awaiting controller connection...</p> 
+        <p id="statusText">Awaiting controller connection...</p>
     </div>
 
     <div class="section">
-        <h2>Nintendo Switch Controller Guide</h2>
+        <h2>Select Controller</h2>
+        <select id="controllerSelect">
+            <option value="auto">Auto Detect</option>
+            <option value="switch">Nintendo Switch</option>
+            <option value="ps4">PlayStation 4</option>
+            <option value="ps5">PlayStation 5</option>
+            <option value="xbox360">Xbox 360</option>
+            <option value="xboxone">Xbox One</option>
+            <option value="xboxseries">Xbox Series S/X</option>
+        </select>
+    </div>
+
+    <div class="section controller-guide" id="guideSwitch">
+        <h2>Nintendo Switch Button Guide</h2>
         <div class="control-list">
             <h3>Attacks</h3>
             <ul>
@@ -44,6 +57,52 @@
                 <li>Switch 6: +</li> 
             </ul>
             <h4>Mega Evo: Home</h4>
+        </div>
+    </div>
+
+    <div class="section controller-guide" id="guidePS">
+        <h2>PlayStation Button Guide</h2>
+        <div class="control-list">
+            <h3>Attacks</h3>
+            <ul>
+                <li>Attack 1: X</li>
+                <li>Attack 2: Circle</li>
+                <li>Attack 3: Triangle</li>
+                <li>Attack 4: Square</li>
+            </ul>
+            <h3>Switch Pokémon</h3>
+            <ul>
+                <li>Switch 1: L1</li>
+                <li>Switch 2: R1</li>
+                <li>Switch 3: L2</li>
+                <li>Switch 4: R2</li>
+                <li>Switch 5: Share</li>
+                <li>Switch 6: Options</li>
+            </ul>
+            <h4>Mega Evo: PS button</h4>
+        </div>
+    </div>
+
+    <div class="section controller-guide" id="guideXbox">
+        <h2>Xbox Button Guide</h2>
+        <div class="control-list">
+            <h3>Attacks</h3>
+            <ul>
+                <li>Attack 1: A</li>
+                <li>Attack 2: B</li>
+                <li>Attack 3: Y</li>
+                <li>Attack 4: X</li>
+            </ul>
+            <h3>Switch Pokémon</h3>
+            <ul>
+                <li>Switch 1: LB</li>
+                <li>Switch 2: RB</li>
+                <li>Switch 3: LT</li>
+                <li>Switch 4: RT</li>
+                <li>Switch 5: Back</li>
+                <li>Switch 6: Start</li>
+            </ul>
+            <h4>Mega Evo: Guide</h4>
         </div>
     </div>
 
