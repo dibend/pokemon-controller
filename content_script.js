@@ -41,7 +41,7 @@ function handleGamepadInput() {
             7: () => triggerClick('button[data-tooltip="switchpokemon|3"]'), // ZR
             8: () => triggerClick('button[data-tooltip="switchpokemon|4"]'), // -
             9: () => triggerClick('button[data-tooltip="switchpokemon|5"]'), // +
-            12: () => triggerClick('div.battle-controls > div > div.movecontrols > div.movemenu > label.megaevo'), // Home
+            10: () => triggerClick('div.battle-controls > div > div.movecontrols > div.movemenu > label.megaevo'), // Left Stick
         },
         ps4: {
             0: () => triggerClick('button[name="chooseMove"][value="1"]'), // X
@@ -54,7 +54,7 @@ function handleGamepadInput() {
             7: () => triggerClick('button[data-tooltip="switchpokemon|3"]'), // R2
             8: () => triggerClick('button[data-tooltip="switchpokemon|4"]'), // Share
             9: () => triggerClick('button[data-tooltip="switchpokemon|5"]'), // Options
-            16: () => triggerClick('div.battle-controls > div > div.movecontrols > div.movemenu > label.megaevo'), // PS button
+            10: () => triggerClick('div.battle-controls > div > div.movecontrols > div.movemenu > label.megaevo'), // L3
         },
         ps5: {
             0: () => triggerClick('button[name="chooseMove"][value="1"]'),
@@ -67,7 +67,7 @@ function handleGamepadInput() {
             7: () => triggerClick('button[data-tooltip="switchpokemon|3"]'),
             8: () => triggerClick('button[data-tooltip="switchpokemon|4"]'),
             9: () => triggerClick('button[data-tooltip="switchpokemon|5"]'),
-            16: () => triggerClick('div.battle-controls > div > div.movecontrols > div.movemenu > label.megaevo'),
+            10: () => triggerClick('div.battle-controls > div > div.movecontrols > div.movemenu > label.megaevo'), // L3
         },
         xbox360: {
             0: () => triggerClick('button[name="chooseMove"][value="1"]'), // A
@@ -80,7 +80,7 @@ function handleGamepadInput() {
             7: () => triggerClick('button[data-tooltip="switchpokemon|3"]'), // RT
             8: () => triggerClick('button[data-tooltip="switchpokemon|4"]'), // Back
             9: () => triggerClick('button[data-tooltip="switchpokemon|5"]'), // Start
-            16: () => triggerClick('div.battle-controls > div > div.movecontrols > div.movemenu > label.megaevo'), // Guide
+            10: () => triggerClick('div.battle-controls > div > div.movecontrols > div.movemenu > label.megaevo'), // Left Stick
         },
         xboxone: {
             0: () => triggerClick('button[name="chooseMove"][value="1"]'),
@@ -93,7 +93,8 @@ function handleGamepadInput() {
             7: () => triggerClick('button[data-tooltip="switchpokemon|3"]'),
             8: () => triggerClick('button[data-tooltip="switchpokemon|4"]'),
             9: () => triggerClick('button[data-tooltip="switchpokemon|5"]'),
-            16: () => triggerClick('div.battle-controls > div > div.movecontrols > div.movemenu > label.megaevo'),
+            10: () => triggerClick('div.battle-controls > div > div.movecontrols > div.movemenu > label.megaevo'), // Left Stick
+
         },
         xboxseries: {
             0: () => triggerClick('button[name="chooseMove"][value="1"]'),
@@ -106,7 +107,7 @@ function handleGamepadInput() {
             7: () => triggerClick('button[data-tooltip="switchpokemon|3"]'),
             8: () => triggerClick('button[data-tooltip="switchpokemon|4"]'),
             9: () => triggerClick('button[data-tooltip="switchpokemon|5"]'),
-            16: () => triggerClick('div.battle-controls > div > div.movecontrols > div.movemenu > label.megaevo'),
+            10: () => triggerClick('div.battle-controls > div > div.movecontrols > div.movemenu > label.megaevo'), // Left Stick
         }
     };
 

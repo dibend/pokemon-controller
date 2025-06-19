@@ -1,19 +1,24 @@
 {
-    "manifest_version": 3, 
-    "name": "Pokemon Showdown Controller Extension", 
+    "manifest_version": 3,
+    "name": "Pokemon Showdown Controller Extension",
     "version": "1.1.0",
     "description": "Maps Nintendo Switch controller buttons to Pokemon Showdown actions",
 
     "content_scripts": [
         {
-            "matches": ["https://play.pokemonshowdown.com/*"], 
+            "matches": ["https://play.pokemonshowdown.com/*"],
             "js": ["content_script.js"],
-            "run_at": "document_end" 
+            "run_at": "document_end"
         }
     ],
 
     "action": {
         "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGUlEQVR4nGP4z8DwnxLMMGrAqAGjBgwXAwAwxP4QHCfkAAAAAABJRU5ErkJggg==",
+        "48": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAYUlEQVR4nO3PsQ0AIADDsP7/NBzBYCFlyO7sbOfnpgENaEADGtCABjSgAQ1oQAMa0IAGNKABDWhAAxrQgAY0oAENaEADGtCABjSgAQ1oQAMa0IAGNKABDWhAAxrQgAa8dgF3g+8AvET25QAAAABJRU5ErkJggg==",
+        "128": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAABK0lEQVR4nO3SoQEAMBCEsNt/6e8YFUTEI9htR9d+B2AADIABMAAGwAAYAANgAAyAATAABsAAGAADYAAMgAEwAAbAABgAA2AADIABMAAGwAAYAANgAAyAATAABsAAGAADYAAMgAHiDBBngDgDxBkgzgBxBogzQJwB4gwQZ4A4A8QZIM4AcQaIM0CcAeIMEGeAOAPEGSDOAHEGiDNAnAHiDBBngDgDxBkgzgBxBogzQJwB4gwQZ4A4A8QZIM4AcQaIM0CcAeIMEGeAOAPEGSDOAHEGiDNAnAHiDBBngDgDxBkgzgBxBogzQJwB4gwQZ4A4A8QZIM4AcQaIM0CcAeIMEGeAOAPEGSDOAHEGiDNAnAHiDBBngDgDxBkgzgBxBogzQJwB4gwQZ4A4A8Q9VtGHcj7WUZsAAAAASUVORK5CYII="
     },
 
     "permissions": [
