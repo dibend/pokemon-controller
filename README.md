@@ -8,7 +8,6 @@
 4. Connect a Nintendo Switch, PlayStation 4/5 or Xbox 360/One/Series controller.
 5. Use the extension popup to select your controller type or leave it on **Auto Detect**.
 6. The popup provides button guides for each controller.
-7. Mega Evolution is triggered with the **left stick** to avoid opening system menus.
 
 If Chrome does not recognize your controller, visit `chrome://gamepad` to verify it is detected.
 

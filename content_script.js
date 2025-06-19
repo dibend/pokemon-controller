@@ -94,6 +94,7 @@ function handleGamepadInput() {
             8: () => triggerClick('button[data-tooltip="switchpokemon|4"]'),
             9: () => triggerClick('button[data-tooltip="switchpokemon|5"]'),
             10: () => triggerClick('div.battle-controls > div > div.movecontrols > div.movemenu > label.megaevo'), // Left Stick
+
         },
         xboxseries: {
             0: () => triggerClick('button[name="chooseMove"][value="1"]'),
