@@ -6,7 +6,7 @@ Click the extension icon with Chrome in developer mode, click manage extensions,
 
 ### Chrome must be wide-screen so it displays all available attack and switch buttons in one row, best to close chat panels in showdown settings. Only works with most competitive official Smogon server unless you edit code. Smogon sample teams are recommended for play.
 
-May make playing more difficult until you memorize controls. This is a memory game extension. If you select fainted Pokemon you need to press A again to reconnect.
+May make playing more difficult until you memorize controls. This is a memory game extension. If you select fainted Pokemon you need to click OK in popup and press A again to reconnect. You may need to click extension again I forget, but A makes it start working and it says controller connected with popup open when it's working or thinks it is. I don't know about Switch 2 Controller I have a Pikachu Switch 1 Controller you can clone or fork this it's CopyLeft License so whatever you do with it needs to be open source. Don't hide your programs share them. Unless they have vulnerabilities but they all do so put a good disclaimer somewhere.
 
 Also requires mouse or touchscreen if you select fainted Pokemon, Pokemon never die they only faint and go to Pokemon Centers.
 
