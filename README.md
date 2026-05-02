@@ -9,3 +9,5 @@ Click the extension icon with Chrome in developer mode, click manage extensions,
 May make playing more difficult until you memorize controls. This is a memory game extension. If you select fainted Pokemon you need to press A again to reconnect.
 
 Also requires mouse or touchscreen if you select fainted Pokemon, Pokemon never die they only faint and go to Pokemon Centers.
+
+Not suitable for children because of poorly moderated server.
