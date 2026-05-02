@@ -1,5 +1,7 @@
 # Nintendo Switch Controller Support for [Pokemon Showdown](https://play.pokemonshowdown.com) battles in wide-screen Chrome
 
+Not suitable for children because of poorly moderated server.
+
 ## Chrome must be in developer mode to install this Chrome extension.
 
 Click the extension icon with Chrome in developer mode, click manage extensions, select load unpacked with folder containing files.
@@ -10,6 +12,6 @@ May make playing more difficult until you memorize controls. This is a memory ga
 
 Also requires mouse or touchscreen if you select fainted Pokemon, Pokemon never die they only faint and go to Pokemon Centers.
 
-Not suitable for children because of poorly moderated server.
+Don't let your children run their own Showdown server on internet keep it on local network if they insist on playing and remove chat features and automatically assign real Pokemon trainer names and sprites with Pokemon Stadium graphics and send me email with link to all the code on GitHub. That is the terms of using this. If you steal Nintendo code they will sue you I made this so Nintendo would stop trying to take down our server I'm selling nerds their official controllers to throw some money their way. I'm not responsible for any Showdown server code I just made this.
 
-Don't let your kids run their own Showdown server on internet keep it on local network if they insist on playing and remove chat features and automatically assign real Pokemon trainer names and sprites with Pokemon Stadium graphics and send me email with link to all the code on GitHub. That is the terms of using this. If you steal Nintendo code they will sue you I made this so Nintendo would stop trying to take down our server I'm selling nerds their official controllers to throw some money their way.
+Please make as many GitHub issues here as possible with proof of using properly on YouTube. Record proof of all button presses working in issues. Your controller needs top be well mantained if it's not it may break the extension I'm not fixing your controller for you solder is dangerous it has lead. 
