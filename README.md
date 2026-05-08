@@ -1,5 +1,5 @@
 # Nintendo Switch Controller Support for [Pokemon Showdown](https://play.pokemonshowdown.com) battles in wide-screen Chrome
-<a href="https://www.github.com/sponsors/dibend><img width="220" height="64" alt="image" src="https://github.com/user-attachments/assets/749dfc2d-0225-4e3f-8cbc-a9400986ef26" /></a>
+<a href="https://www.github.com/sponsors/dibend"><img width="220" height="64" alt="image" src="https://github.com/user-attachments/assets/749dfc2d-0225-4e3f-8cbc-a9400986ef26" /></a>
 
 Not suitable for children because of poorly moderated server.
 
