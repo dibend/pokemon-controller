@@ -6,7 +6,7 @@ Not suitable for children because of poorly moderated server. Parental Discretio
 <a href="https://github.com/sponsors/dibend"><img width="1030" height="432" alt="image" src="https://github.com/user-attachments/assets/b1981496-261c-4c5e-a57d-b7e1b9ca8662" /></a>
 
 
-## Chrome must be in developer mode to install this Chrome extension.
+## Chrome must be in developer mode to install this Chrome extension. This is optimized for Generation 7 and 6 but others may work.
 
 Click the extension icon with Chrome in developer mode, click manage extensions, select load unpacked with folder containing files.
 
