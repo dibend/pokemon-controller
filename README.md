@@ -1,6 +1,7 @@
-# Nintendo Switch Controller Support for [Pokemon Showdown](https://play.pokemonshowdown.com) battles in wide-screen Chrome
+# Nintendo Switch Controller Support for [Pokemon Showdown](https://play.pokemonshowdown.com) battles in wide-screen Chrome<hr>
+needs developer mode with experimental controller support in Chrome settings<hr>
 <a href="https://www.github.com/sponsors/dibend"><img width="220" height="64" alt="image" src="https://github.com/user-attachments/assets/749dfc2d-0225-4e3f-8cbc-a9400986ef26" /></a>
-
+<hr>
 Not suitable for children because of poorly moderated server. Parental Discretion is advised.
 
 <a href="https://github.com/sponsors/dibend"><img width="1030" height="432" alt="image" src="https://github.com/user-attachments/assets/b1981496-261c-4c5e-a57d-b7e1b9ca8662" /></a>
