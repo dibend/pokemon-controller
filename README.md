@@ -21,5 +21,10 @@ Don't let your children run their own Showdown server on internet keep it on loc
 
 Please make as many GitHub issues here as possible with proof of using properly on YouTube. Record proof of all button presses working in issues. Your controller needs top be well mantained if it's not it may break the extension I'm not fixing your controller for you solder is dangerous it has lead. 
 
-Demo: https://www.youtube.com/shorts/iyvsJJ99jkU
+Demo: https://www.youtube.com/shorts/iyvsJJ99jkU<hr>
+My teams: https://pastebin.com/raw/3sGWA4h9
+<hr>
+
+
+
 
