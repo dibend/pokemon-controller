@@ -24,6 +24,8 @@ Please make as many GitHub issues here as possible with proof of using properly 
 Demo: https://www.youtube.com/shorts/iyvsJJ99jkU<hr>
 My teams: https://pastebin.com/raw/3sGWA4h9
 <hr>
+<img src="https://github.com/dibend/pokemon-controller/blob/main/pokemon%20electro%20ball%20GIF.gif?raw=true"</img>
+<hr>
 
 
 
